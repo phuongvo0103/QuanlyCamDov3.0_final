@@ -1,0 +1,11 @@
+#a span{
+	color: darkblue;
+}
+
+.cl_total{
+	background: #39e225;
+    font-size: 25px;
+    border: 5px transparent;
+    boder-radius: 31px;
+    border-radius: 7px;
+}

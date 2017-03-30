@@ -1,0 +1,27 @@
+﻿- chưa bắt lỗi dữ liệu rỗng ở menu thêm hợp đông - > thêm chi tiết hợp đồng . ok
+- chưa bắt lỗi dữ liệu rỗng chức năng thanh toán hợp đông form gia han.ok
+- chưa bắt lỗi dữ liệu rỗng thêm mới tài sản.ok
+- chưa bắt lỗi dữ liệu rỗng thêm tài sản vô bảng thanh lý (số tiền thanh lý).ok
+-----------------------------------------------------------------------------------------------------
+- lỗi danh sánh đóng lãi(số tiền đóng chưa đinh dạng qua vnd).ok
+	+ ngày đóng chưa định dạng qua dd/MM/yyyy .ok
+- chưa phân trang thêm hợp đồng -> thê chi tiết hợp đồng.ok
+-----------------------------------------------------------------------------------------------------
+- bắt lỗi đăng nhập.tạm ổn
+- lỗi gia hạn đóng lãi.ok
+-----------------------------------------------------------------------------------------------------
+- Thống kê doanh thu.OK
+	+ thống kê chỉ cần sum(tienthanhtoan) dv trường hợp chưa gia hạn + TienThanhLy
+	+dv trường hợp đã gia hạn thì sum(tienthanhtoan) + sum(sotiencam*GiaHan.MucLaiSuat) 
+								+ sum(sotiendong*(ngaybatdau-ngayketthuc))+ Tiền thanh lý
+----------------------------------------------------------------------------------------------------								
+- sửa lai sql chổ hợp đồng sắp hết hạn và hết hạn.OK
+---------------------------------------------------------------------------------------------------								
+- lỗi số tiền cầm nhỏ hơn 80tr.ok
+- thời gian gia hạn phải lớn hơn thời gian kết thúc hợp đồng.ok
+--------------------------------------------------------------------------------------------------
+- lấy dữ liệu hàng thanh lý (lỗi hình ảnh). sửa nhưng chưa test
+
+- sửa lỗi cột hình thức ở tab hợp đồng hết hạn.
+
+- căn chỉnh định dạng lại cho đúng theo yêu cầu checkList.OK
